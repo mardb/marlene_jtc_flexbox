@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Simple Flexbox Demo</h1>
 
-</body>
+    <h3 class="section-label">Flex Container: A, B, C</h3>
+    <div class="flex-container row-1">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+    </div>
+
+    <h3 class="section-label">Nested Flex Container</h3>
+    <div class="flex-container row-2">
+      <div class="nested-container">
+        <div class="nested-item">1</div>
+        <div class="nested-item">2</div>
+      </div>
+    </div>
+
+    <h3 class="section-label">Flex Growth (1, 2, 1)</h3>
+    <div class="flex-container row-3">
+      <div class="stretch-1">flex: 1</div>
+      <div class="stretch-2">flex: 2</div>
+      <div class="stretch-1">flex: 1</div>
+    </div>
+  </body>
 </html>
